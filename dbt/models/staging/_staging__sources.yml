@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: staging
+    description: >
+      Cleaned, conformed tables landed in PostgreSQL by the PySpark
+      Silver->Warehouse job. These are the raw inputs to dbt.
+    schema: staging
+    tables:
+      - name: customers
+      - name: sellers
+      - name: products
+      - name: orders
+      - name: order_items
+      - name: payments
+      - name: shipments
+      - name: returns

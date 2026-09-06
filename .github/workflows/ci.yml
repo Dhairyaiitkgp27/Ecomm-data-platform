@@ -1,0 +1,103 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # Fast job: generator + data-quality gate + unit/integration tests.
+  # Runs on every push; no external services needed.
+  # ---------------------------------------------------------------------------
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy pyarrow pytest
+      - name: Generate a small sample
+        run: python -m generator.generate_data --orders 4000 --output data/sample --seed 42
+      - name: Data-quality gate (report only)
+        run: python -m src.quality.run_quality --raw-dir data/sample --quarantine-dir data/quarantine --no-fail-fast
+      - name: Run pytest
+        run: python -m pytest -q
+
+  # ---------------------------------------------------------------------------
+  # Deep job: runs the REAL pipeline end to end against a Postgres service —
+  # Spark (Bronze->Silver) -> load staging -> dbt snapshot/run/test -> SQL.
+  # ---------------------------------------------------------------------------
+  warehouse:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: warehouse
+          POSTGRES_PASSWORD: warehouse
+          POSTGRES_DB: ecommerce
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U warehouse"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      POSTGRES_HOST: localhost
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: ecommerce
+      POSTGRES_USER: warehouse
+      POSTGRES_PASSWORD: warehouse
+      DBT_PROFILES_DIR: ${{ github.workspace }}/dbt
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: "17" }
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Create warehouse schemas
+        run: |
+          PGPASSWORD=warehouse psql -h localhost -U warehouse -d ecommerce -v ON_ERROR_STOP=1 <<'SQL'
+          CREATE SCHEMA IF NOT EXISTS staging;
+          CREATE SCHEMA IF NOT EXISTS marts;
+          CREATE SCHEMA IF NOT EXISTS analytics;
+          CREATE SCHEMA IF NOT EXISTS snapshots;
+          CREATE SCHEMA IF NOT EXISTS seeds;
+          SQL
+      - name: Generate sample dataset
+        run: python -m generator.generate_data --orders 8000 --output data/raw --seed 42
+      - name: Data-quality gate
+        run: python -m src.quality.run_quality --raw-dir data/raw --quarantine-dir data/quarantine --no-fail-fast
+      - name: Spark Bronze -> Silver (real job, local mode)
+        run: |
+          spark-submit --master "local[*]" --conf spark.ui.enabled=false \
+            spark/jobs/bronze_to_silver.py --input data/raw --output data/silver
+      - name: Load Silver -> Postgres staging
+        run: python scripts/load_to_staging.py --silver data/silver
+      - name: dbt build (deps, snapshot, run, test)
+        working-directory: dbt
+        run: |
+          # Copy the example profile into place (reads POSTGRES_* from env).
+          mkdir -p "$HOME/.dbt" && cp profiles.example.yml "$HOME/.dbt/profiles.yml"
+          dbt deps
+          dbt snapshot
+          dbt run
+          dbt run            # second run exercises the incremental path
+          dbt test
+      - name: Run analytics SQL (smoke)
+        run: |
+          PGPASSWORD=warehouse psql -h localhost -U warehouse -d ecommerce -X \
+            -v ON_ERROR_STOP=1 -f sql/analytics/business_queries.sql > /dev/null
+          echo "all business queries executed successfully"

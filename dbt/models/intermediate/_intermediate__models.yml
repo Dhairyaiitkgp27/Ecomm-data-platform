@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: int_order_payments
+    description: Payments aggregated to one row per order.
+    columns:
+      - name: order_id
+        data_tests: [not_null, unique]
+  - name: int_order_item_metrics
+    description: Order-item measures aggregated to one row per order.
+    columns:
+      - name: order_id
+        data_tests: [not_null, unique]

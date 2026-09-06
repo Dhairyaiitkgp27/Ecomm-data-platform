@@ -1,0 +1,17 @@
+# High-level pipeline settings (documented reference; the DAG reads env vars).
+schedule: "0 2 * * *"        # daily 02:00
+retries: 2
+retry_delay_minutes: 3
+mode: full                    # full | incremental
+
+data_quality:
+  fail_fast: true
+  fail_thresholds:
+    reject: 0.05              # >5% unusable rows in a table => stop
+    quarantine: 0.10          # >10% quarantined => stop
+
+spark:
+  shuffle_partitions: 8
+  packages:
+    - org.apache.hadoop:hadoop-aws:3.3.4
+    - org.postgresql:postgresql:42.7.3

@@ -1,0 +1,8 @@
+FROM python:3.11-slim
+WORKDIR /opt/project
+RUN pip install --no-cache-dir streamlit==1.37.1 pandas==2.2.2 numpy==1.26.4 \
+    sqlalchemy==1.4.52 psycopg2-binary==2.9.9
+COPY dashboard /opt/project/dashboard
+COPY data/sample /opt/project/data/sample
+EXPOSE 8501
+CMD ["streamlit", "run", "dashboard/app.py", "--server.address=0.0.0.0", "--server.port=8501"]

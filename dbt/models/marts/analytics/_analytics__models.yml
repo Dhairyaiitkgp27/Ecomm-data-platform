@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: daily_sales
+    description: "GRAIN: one row per day. Daily GMV/orders/AOV KPIs (incremental)."
+    columns:
+      - name: order_date
+        data_tests: [not_null, unique]
+      - name: gmv_inr
+        data_tests:
+          - dbt_utils.accepted_range: {min_value: 0, inclusive: true}
+  - name: seller_performance
+    description: "GRAIN: one row per seller."
+    columns:
+      - name: seller_id
+        data_tests: [not_null, unique]
+      - name: return_rate
+        data_tests:
+          - dbt_utils.accepted_range: {min_value: 0, max_value: 1, inclusive: true}
+  - name: product_performance
+    description: "GRAIN: one row per product."
+    columns:
+      - name: product_id
+        data_tests: [not_null, unique]
+  - name: customer_summary
+    description: "GRAIN: one row per customer."
+    columns:
+      - name: customer_id
+        data_tests: [not_null, unique]
+  - name: delivery_performance
+    description: "GRAIN: one row per (state, carrier)."
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [state, carrier]

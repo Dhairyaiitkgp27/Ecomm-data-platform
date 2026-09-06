@@ -1,0 +1,522 @@
+product_id,product_name,category,subcategory,brand,mrp_inr,weight_grams
+PROD0000000,Kanha Kids Wear,Fashion,Kids Wear,Bluewood,1315.0,820
+PROD0000001,Nova Power Banks,Mobiles & Accessories,Power Banks,Sattva,9099.0,152
+PROD0000002,Tanish Cases & Covers,Mobiles & Accessories,Cases & Covers,Bluewood,8262.0,274
+PROD0000003,Aveer Footwear,Sports & Fitness,Footwear,Kanha,892.0,12652
+PROD0000004,BharatTech Cases & Covers,Mobiles & Accessories,Cases & Covers,Nirvi,16744.0,128
+PROD0000005,BharatTech Earphones,Mobiles & Accessories,Earphones,Meraki,12416.0,190
+PROD0000006,Prisma Beverages,Grocery,Beverages,Yugen,517.0,8491
+PROD0000007,Rasa Haircare,Beauty & Personal Care,Haircare,Yugen,611.0,617
+PROD0000008,Vayu Kids Wear,Fashion,Kids Wear,Orion,943.0,640
+PROD0000009,Aveer Makeup,Beauty & Personal Care,Makeup,Vayu,389.0,228
+PROD0000010,Nirvi School Supplies,Toys & Baby,School Supplies,Orion,372.0,1485
+PROD0000011,Tanish Earphones,Mobiles & Accessories,Earphones,Amara,35115.0,254
+PROD0000012,Nirvi Monitors,Electronics,Monitors,Araku,39438.0,4073
+PROD0000013,Kaya Beverages,Grocery,Beverages,Aveer,1306.0,9696
+PROD0000014,Suraj Non-Fiction,Books,Non-Fiction,Bluewood,107.0,956
+PROD0000015,Tanish Cricket,Sports & Fitness,Cricket,Zenda,3540.0,14562
+PROD0000016,Vayu Men Topwear,Fashion,Men Topwear,BharatTech,1530.0,364
+PROD0000017,Yugen Fitness Equipment,Sports & Fitness,Fitness Equipment,Yugen,2330.0,2477
+PROD0000018,Rasa Footwear,Fashion,Footwear,Araku,1102.0,1008
+PROD0000019,Trisha Fan,Appliances,Fan,Nirvi,2639.0,21872
+PROD0000020,Suraj Snacks,Grocery,Snacks,Vira,1645.0,2350
+PROD0000021,Vira Smart Watches,Electronics,Smart Watches,Kanha,19630.0,7805
+PROD0000022,Amara Cameras,Electronics,Cameras,Zivame,13749.0,2204
+PROD0000023,Trisha Decor,Home & Kitchen,Decor,Suraj,1587.0,2377
+PROD0000024,Bluewood Staples,Grocery,Staples,Amara,114.0,3061
+PROD0000025,Vayu Smartphones,Mobiles & Accessories,Smartphones,Amara,13550.0,122
+PROD0000026,Tanish Beverages,GROCERY,Beverages,Zivame,89.0,4950
+PROD0000027,Orion Watches,Fashion,Watches,Amara,1418.0,478
+PROD0000028,Araku Men Topwear,Fashion,Men Topwear,Kaya,285.0,313
+PROD0000029,Orion Kids Wear,Fashion,Kids Wear,Meraki,456.0,265
+PROD0000030,Nova Baby Care,Toys & Baby,Baby Care,Vayu,1097.0,1049
+PROD0000031,Vira Smartphones,Mobiles & Accessories,Smartphones,Vira,15491.0,387
+PROD0000032,Trisha Cookware,Home & Kitchen,Cookware,Nova,2616.0,2055
+PROD0000033,Nova Power Banks,Mobiles & Accessories,Power Banks,Vira,6989.0,344
+PROD0000034,Rasa School Supplies,Toys & Baby,School Supplies,Kanha,285.0,2388
+PROD0000035,Vayu Non-Fiction,Books,Non-Fiction,Rasa,695.0,1119
+PROD0000036,Vayu Monitors,Electronics,Monitors,Kanha,41591.0,6696
+PROD0000037,Bluewood Watches,Fashion,Watches,Vira,736.0,998
+PROD0000038,BharatTech Kids Wear,Fashion,Kids Wear,Tanish,1628.0,1390
+PROD0000039,Suraj Women Ethnic,Fashion,Women Ethnic,Nirvi,2529.0,453
+PROD0000040,Kaya Staples,Grocery,Staples,Sattva,298.0,8470
+PROD0000041,Tanish Decor,Home & Kitchen,Decor,Zivame,814.0,7337
+PROD0000042,Zenda Bags,Fashion,Bags,Nirvi,821.0,404
+PROD0000043,Amara Water Purifier,Appliances,Water Purifier,BharatTech,2365.0,19731
+PROD0000044,Kaya Men Topwear,Fashion,Men Topwear,Amara,642.0,959
+PROD0000045,Kaya Cases & Covers,Mobiles & Accessories,Cases & Covers,Suraj,12300.0,390
+PROD0000046,Yugen Power Banks,Mobiles & Accessories,Power Banks,Sattva,16533.0,213
+PROD0000047,Nova Men Topwear,Fashion,Men Topwear,Aveer,307.0,300
+PROD0000048,Prisma Haircare,Beauty & Personal Care,Haircare,Meraki,1786.0,651
+PROD0000049,Vayu Earphones,Mobiles & Accessories,Earphones,Meraki,12219.0,157
+PROD0000050,Orion Cookware,Home & Kitchen,Cookware,Meraki,1079.0,1674
+PROD0000051,Aveer Cameras,Electronics,Cameras,Rasa,12547.0,941
+PROD0000052,Sattva Iron,Appliances,Iron,Bluewood,3697.0,7967
+PROD0000053,Ovi Smartphones,Mobiles & Accessories,Smartphones,Nirvi,11483.0,399
+PROD0000054,Tanish Watches,Fashion,Watches,Rasa,1446.0,224
+PROD0000055,Amara Earphones,Mobiles & Accessories,Earphones,Aveer,17953.0,300
+PROD0000056,Rasa Men Topwear,Fashion,Men Topwear,Rasa,664.0,993
+PROD0000057,Zenda Smartphones,Mobiles & Accessories,Smartphones,Meraki,34506.0,324
+PROD0000058,Nirvi Women Ethnic,Fashion,Women Ethnic,Meraki,4575.0,835
+PROD0000059,BharatTech Regional,Books,Regional,Zenda,364.0,676
+PROD0000060,Meraki Cases & Covers,Mobiles & Accessories,Cases & Covers,Kanha,16244.0,97
+PROD0000061,Meraki Water Purifier,Appliances,Water Purifier,Suraj,3195.0,4654
+PROD0000062,Nova Storage,Home & Kitchen,Storage,Meraki,853.0,4392
+PROD0000063,Aveer Dining,Home & Kitchen,Dining,Nirvi,823.0,7416
+PROD0000064,Amara Storage,Home & Kitchen,Storage,Kanha,937.0,4678
+PROD0000065,Amara Bags,Fashion,Bags,Bluewood,599.0,140
+PROD0000066,Nova Iron,Appliances,Iron,Orion,6769.0,21210
+PROD0000067,Bluewood Academic,books,Academic,Vayu,391.0,691
+PROD0000068,Vira Regional,Books,Regional,Bluewood,176.0,1165
+PROD0000069,Zivame Speakers,Electronics,Speakers,Amara,79774.0,4874
+PROD0000070,Kaya Grooming,Beauty & Personal Care,Grooming,Kaya,518.0,667
+PROD0000071,Sattva Chargers,Mobiles & Accessories,Chargers,Aveer,28143.0,352
+PROD0000072,Zivame Decor,Home & Kitchen,Decor,Vira,1166.0,9963
+PROD0000073,Nirvi Earphones,Mobiles & Accessories,Earphones,Indus,21112.0,225
+PROD0000074,Araku Smart Watches,Electronics,Smart Watches,Suraj,16415.0,5927
+PROD0000075,Sattva Haircare,Beauty & Personal Care,Haircare,Kanha,638.0,665
+PROD0000076,Zivame Staples,Grocery,Staples,Zivame,395.0,5531
+PROD0000077,Bluewood Chargers,Mobiles & Accessories,Chargers,Nirvi,27232.0,316
+PROD0000078,BharatTech Storage,Home & Kitchen,Storage,Nirvi,1793.0,8317
+PROD0000079,Ovi Makeup,Beauty & Personal Care,Makeup,Nova,480.0,129
+PROD0000080,Bluewood Diapers,Toys & Baby,Diapers,Indus,817.0,2273
+PROD0000081,Yugen Makeup,Beauty & Personal Care,Makeup,Suraj,763.0,271
+PROD0000082,Trisha Smartphones,Mobiles & Accessories,Smartphones,Kaya,10726.0,336
+PROD0000083,Amara Cases & Covers,Mobiles & Accessories,Cases & Covers,Yugen,13386.0,69
+PROD0000084,Tanish Fragrance,Beauty & Personal Care,Fragrance,Kaya,1181.0,284
+PROD0000085,Vayu Speakers,Electronics,Speakers,Zenda,59248.0,4107
+PROD0000086,Bluewood School Supplies,Toys & Baby,School Supplies,Vayu,566.0,2746
+PROD0000087,BharatTech Baby Care,Toys & Baby,Baby Care,Zenda,546.0,4730
+PROD0000088,Kaya Fitness Equipment,Sports & Fitness,Fitness Equipment,Indus,1111.0,6133
+PROD0000089,Zenda Footwear,Fashion,Footwear,Sattva,2862.0,432
+PROD0000090,Meraki Microwave,Appliances,Microwave,Tanish,5255.0,9627
+PROD0000091,Kaya Haircare,Beauty & Personal Care,Haircare,Prisma,1496.0,68
+PROD0000092,Bluewood Power Banks,Mobiles & Accessories,Power Banks,Nova,13416.0,66
+PROD0000093,Kanha Smart Watches,Electronics,Smart Watches,Vayu,20780.0,981
+PROD0000094,Ovi Laptops,Electronics,Laptops,Amara,54864.0,1122
+PROD0000095,Bluewood Footwear,Fashion,Footwear,Indus,1357.0,377
+PROD0000096,Tanish Footwear,Sports & Fitness,Footwear,Zenda,932.0,8419
+PROD0000097,Indus Beverages,Grocery,Beverages,Sattva,287.0,7287
+PROD0000098,Ovi Women Ethnic,FASHION,Women Ethnic,Trisha,511.0,1055
+PROD0000099,Nirvi Dining,Home & Kitchen,Dining,Vira,1549.0,1797
+PROD0000100,Araku Cameras,Electronics,Cameras,Suraj,15352.0,4906
+PROD0000101,Meraki Bags,Fashion,Bags,Yugen,1021.0,1032
+PROD0000102,Indus Chargers,Mobiles & Accessories,Chargers,Bluewood,20256.0,54
+PROD0000103,Indus Skincare,Beauty & Personal Care,Skincare,Zenda,394.0,243
+PROD0000104,Amara Fragrance,Beauty & Personal Care,Fragrance,Zenda,1097.0,373
+PROD0000105,Zivame Personal Hygiene,Grocery,Personal Hygiene,Amara,440.0,8192
+PROD0000106,Sattva Beverages,Grocery,Beverages,Aveer,258.0,8932
+PROD0000107,Suraj Speakers,Electronics,Speakers,Araku,23239.0,6922
+PROD0000108,Araku Iron,Appliances,Iron,Tanish,1380.0,8122
+PROD0000109,BharatTech Smartphones,Mobiles & Accessories,Smartphones,Meraki,23192.0,268
+PROD0000110,Aveer Kids Wear,Fashion,Kids Wear,Nirvi,1374.0,1147
+PROD0000111,Kaya Dining,Home & Kitchen,Dining,Tanish,726.0,9842
+PROD0000112,Prisma Chargers,Mobiles & Accessories,Chargers,Amara,16067.0,369
+PROD0000113,Indus Chargers,Mobiles & Accessories,Chargers,Suraj,24293.0,41
+PROD0000114,BharatTech Bags,Fashion,Bags,Bluewood,794.0,239
+PROD0000115,Zivame Smartphones,Mobiles & Accessories,Smartphones,Trisha,11003.0,81
+PROD0000116,Vayu Toys,Toys & Baby,Toys,Tanish,768.0,3286
+PROD0000117,Kaya Footwear,Fashion,Footwear,Zivame,1425.0,1288
+PROD0000118,Aveer Dining,Home & Kitchen,Dining,Meraki,2647.0,10940
+PROD0000119,Yugen Fitness Equipment,Sports & Fitness,Fitness Equipment,Tanish,3211.0,5466
+PROD0000120,Kanha Storage,Home & Kitchen,Storage,Kaya,2184.0,2587
+PROD0000121,Yugen Footwear,Fashion,Footwear,Zenda,1408.0,393
+PROD0000122,Amara Toys,Toys & Baby,Toys,Prisma,473.0,2961
+PROD0000123,BharatTech Tablets,Electronics,Tablets,Ovi,35804.0,4836
+PROD0000124,Kanha Monitors,Electronics,Monitors,Yugen,33102.0,941
+PROD0000125,Tanish Storage,Home & Kitchen,Storage,Kanha,791.0,4435
+PROD0000126,Bluewood Men Topwear,Fashion,Men Topwear,Nova,1248.0,1490
+PROD0000127,Nirvi Academic,Books,Academic,Kaya,212.0,219
+PROD0000128,Kanha Cases & Covers,Mobiles & Accessories,Cases & Covers,Sattva,24409.0,210
+PROD0000129,Vayu Makeup,Beauty & Personal Care,Makeup,Yugen,810.0,715
+PROD0000130,Kanha Microwave,Appliances,Microwave,Zivame,4503.0,3221
+PROD0000131,Nova Cycling,Sports & Fitness,Cycling,Amara,1829.0,1637
+PROD0000132,Amara Earphones,Mobiles & Accessories,Earphones,Meraki,26224.0,175
+PROD0000133,Ovi Tablets,Electronics,Tablets,Zenda,42135.0,6316
+PROD0000134,Prisma Diapers,Toys & Baby,Diapers,Indus,926.0,1882
+PROD0000135,Bluewood Fragrance,Beauty & Personal Care,Fragrance,Amara,1024.0,177
+PROD0000136,Suraj Power Banks,Mobiles & Accessories,Power Banks,BharatTech,21772.0,68
+PROD0000137,Yugen Smartphones,Mobiles & Accessories,Smartphones,Nova,16148.0,256
+PROD0000138,Aveer Regional,Books,Regional,Nirvi,626.0,639
+PROD0000139,Araku Decor,Home & Kitchen,Decor,Aveer,2547.0,4864
+PROD0000140,Indus Dining,Home & Kitchen,Dining,Sattva,1555.0,5218
+PROD0000141,Nova Staples,Grocery,Staples,Prisma,204.0,4664
+PROD0000142,Vayu Tablets,Electronics,Tablets,Kanha,17590.0,3755
+PROD0000143,Amara Tablets,Electronics,Tablets,Zenda,24097.0,735
+PROD0000144,Vayu Makeup,Beauty & Personal Care,Makeup,Orion,569.0,696
+PROD0000145,Nirvi Personal Hygiene,Grocery,Personal Hygiene,Rasa,222.0,4633
+PROD0000146,Indus Smart Watches,Electronics,Smart Watches,Nirvi,45698.0,3038
+PROD0000147,Sattva Makeup,Beauty & Personal Care,Makeup,Vira,540.0,664
+PROD0000148,Nirvi Smartphones,Mobiles & Accessories,Smartphones,Trisha,22205.0,365
+PROD0000149,Indus Laptops,Electronics,Laptops,Zivame,15605.0,1743
+PROD0000150,Tanish Toys,Toys & Baby,Toys,Sattva,721.0,3204
+PROD0000151,Sattva Cases & Covers,Mobiles & Accessories,Cases & Covers,Sattva,9173.0,108
+PROD0000152,Vayu Chargers,Mobiles & Accessories,Chargers,Orion,16728.0,31
+PROD0000153,Nirvi Fiction,Books,Fiction,Trisha,909.0,381
+PROD0000154,BharatTech Men Topwear,Fashion,Men Topwear,Indus,891.0,1321
+PROD0000155,Vira Women Ethnic,Fashion,Women Ethnic,Kanha,471.0,743
+PROD0000156,Nova Non-Fiction,Books,Non-Fiction,Prisma,248.0,635
+PROD0000157,Yugen Laptops,Electronics,Laptops,Nirvi,31511.0,7894
+PROD0000158,Bluewood Grooming,Beauty & Personal Care,Grooming,Vayu,1002.0,168
+PROD0000159,Trisha Footwear,Fashion,Footwear,Zenda,862.0,1200
+PROD0000160,Suraj Chargers,Mobiles & Accessories,Chargers,Kaya,17695.0,113
+PROD0000161,Kanha Skincare,Beauty & Personal Care,Skincare,Prisma,1013.0,246
+PROD0000162,Kaya Kids Wear,Fashion,Kids Wear,Kanha,990.0,1039
+PROD0000163,Kanha Household,Grocery,Household,Meraki,268.0,901
+PROD0000164,Indus School Supplies,Toys & Baby,School Supplies,Bluewood,498.0,4781
+PROD0000165,Zivame Snacks,Grocery,Snacks,Indus,476.0,895
+PROD0000166,Rasa Kids Wear,Fashion,Kids Wear,Sattva,320.0,1183
+PROD0000167,Vayu Smart Watches,Electronics,Smart Watches,Nirvi,20387.0,7290
+PROD0000168,Prisma Toys,Toys & Baby,Toys,BharatTech,1459.0,127
+PROD0000169,Trisha Men Topwear,Fashion,Men Topwear,Zenda,987.0,125
+PROD0000170,Bluewood Iron,Appliances,Iron,Rasa,3171.0,14022
+PROD0000171,Aveer Snacks,Grocery,Snacks,Nirvi,229.0,4924
+PROD0000172,Orion Women Ethnic,Fashion,Women Ethnic,Bluewood,852.0,217
+PROD0000173,Yugen Power Banks,Mobiles & Accessories,Power Banks,Zenda,7219.0,98
+PROD0000174,BharatTech Skincare,Beauty & Personal Care,Skincare,Vira,1417.0,394
+PROD0000175,Amara Furnishing,Home & Kitchen,Furnishing,Kanha,1192.0,5673
+PROD0000176,Zivame Men Topwear,Fashion,Men Topwear,Vira,441.0,1368
+PROD0000177,Tanish Decor, Home & Kitchen ,Decor,Vayu,1582.0,10755
+PROD0000178,Nirvi Fiction,Books,Fiction,Zivame,505.0,1099
+PROD0000179,Aveer Men Topwear,Fashion,Men Topwear,Suraj,749.0,1194
+PROD0000180,Yugen Tablets,Electronics,Tablets,Tanish,25756.0,982
+PROD0000181,Ovi Microwave,Appliances,Microwave,Sattva,3571.0,13047
+PROD0000182,Ovi Fiction,Books,Fiction,Tanish,387.0,764
+PROD0000183,Amara Fitness Equipment,Sports & Fitness,Fitness Equipment,Indus,3256.0,6955
+PROD0000184,Tanish Smartphones,Mobiles & Accessories,Smartphones,Amara,19473.0,202
+PROD0000185,Sattva Personal Hygiene,Grocery,Personal Hygiene,Nirvi,255.0,7516
+PROD0000186,Zivame Regional,Books,Regional,Tanish,327.0,1191
+PROD0000187,Nirvi Fan,Appliances,Fan,Kaya,4012.0,20789
+PROD0000188,Orion Footwear,Fashion,Footwear,Orion,757.0,962
+PROD0000189,Orion Smartphones,Mobiles & Accessories,Smartphones,BharatTech,7547.0,69
+PROD0000190,Bluewood Dining,Home & Kitchen,Dining,Trisha,1281.0,7886
+PROD0000191,Orion Kids Wear,Fashion,Kids Wear,Bluewood,2599.0,537
+PROD0000192,Bluewood Women Ethnic,Fashion,Women Ethnic,Sattva,1015.0,690
+PROD0000193,Kaya Baby Care,Toys & Baby,Baby Care,Kaya,782.0,1801
+PROD0000194,Indus Power Banks,Mobiles & Accessories,Power Banks,Sattva,11854.0,163
+PROD0000195,Orion Baby Care,Toys & Baby,Baby Care,Zivame,989.0,358
+PROD0000196,Zenda Decor,Home & Kitchen,Decor,Zivame,1753.0,10777
+PROD0000197,Amara Beverages,Grocery,Beverages,BharatTech,409.0,8396
+PROD0000198,Vira Bags,Fashion,Bags,Sattva,1589.0,650
+PROD0000199,Kaya Grooming,Beauty & Personal Care,Grooming,Amara,668.0,758
+PROD0000200,Nirvi Storage,Home & Kitchen,Storage,Amara,1440.0,4336
+PROD0000201,Orion Baby Care,Toys & Baby,Baby Care,Meraki,1524.0,1082
+PROD0000202,Kanha Laptops,Electronics,Laptops,Suraj,24094.0,4642
+PROD0000203,Aveer Tablets,Electronics,Tablets,Tanish,14908.0,205
+PROD0000204,Nova Cricket,Sports & Fitness,Cricket,Trisha,1450.0,5190
+PROD0000205,Ovi Earphones,Mobiles & Accessories,Earphones,Suraj,15331.0,74
+PROD0000206,Zenda Grooming,Beauty & Personal Care,Grooming,Prisma,565.0,639
+PROD0000207,Suraj Smartphones,Mobiles & Accessories,Smartphones,Nirvi,10035.0,281
+PROD0000208,Kanha Cases & Covers,MOBILES & ACCESSORIES,Cases & Covers,Tanish,15696.0,204
+PROD0000209,Orion Storage,Home & Kitchen,Storage,Rasa,1079.0,6393
+PROD0000210,Suraj Furnishing,Home & Kitchen,Furnishing,Nirvi,426.0,1455
+PROD0000211,Trisha Furnishing,Home & Kitchen,Furnishing,Aveer,1736.0,3466
+PROD0000212,Indus Dining,Home & Kitchen,Dining,Nova,1058.0,7091
+PROD0000213,Tanish Mixer Grinder,Appliances,Mixer Grinder,Yugen,6765.0,18842
+PROD0000214,Zenda Yoga,Sports & Fitness,Yoga,Kanha,1986.0,3176
+PROD0000215,Vira Footwear,Fashion,Footwear,Araku,843.0,708
+PROD0000216,Vayu Watches,Fashion,Watches,Nirvi,321.0,980
+PROD0000217,Vira Kids Wear,Fashion,Kids Wear,Rasa,1301.0,1161
+PROD0000218,Indus Academic,Books,Academic,Suraj,966.0,665
+PROD0000219,Aveer Bags,Fashion,Bags,Zivame,626.0,637
+PROD0000220,Meraki Makeup,Beauty & Personal Care,Makeup,Vayu,155.0,779
+PROD0000221,Trisha Bags,Fashion,Bags,Trisha,747.0,1267
+PROD0000222,Nirvi Makeup,Beauty & Personal Care,Makeup,Vayu,247.0,284
+PROD0000223,Orion Staples,Grocery,Staples,BharatTech,268.0,4144
+PROD0000224,Ovi Storage,Home & Kitchen,Storage,Araku,1993.0,2229
+PROD0000225,Vira Cookware,Home & Kitchen,Cookware,Vira,1693.0,11532
+PROD0000226,Orion Cameras,Electronics,Cameras,BharatTech,19927.0,3743
+PROD0000227,Zivame Storage,Home & Kitchen,Storage,Rasa,1073.0,3404
+PROD0000228,Tanish Laptops,Electronics,Laptops,Nirvi,24907.0,1374
+PROD0000229,Kanha Snacks,Grocery,Snacks,Nova,553.0,5756
+PROD0000230,Araku Footwear,Fashion,Footwear,Ovi,504.0,226
+PROD0000231,Araku Power Banks,Mobiles & Accessories,Power Banks,Yugen,15558.0,57
+PROD0000232,BharatTech Monitors,Electronics,Monitors,Meraki,21736.0,6020
+PROD0000233,Vayu Furnishing,Home & Kitchen,Furnishing,Rasa,2280.0,2105
+PROD0000234,Aveer Baby Care,Toys & Baby,Baby Care,Kaya,1510.0,409
+PROD0000235,Amara Men Topwear,Fashion,Men Topwear,Vayu,936.0,1231
+PROD0000236,BharatTech Laptops,Electronics,Laptops,Meraki,54623.0,715
+PROD0000237,Amara Kids Wear,Fashion,Kids Wear,BharatTech,1615.0,1047
+PROD0000238,Kaya Cycling,Sports & Fitness,Cycling,Sattva,1768.0,5679
+PROD0000239,Trisha Snacks,Grocery,Snacks,Prisma,180.0,8145
+PROD0000240,Sattva Smartphones,Mobiles & Accessories,Smartphones,Rasa,9553.0,46
+PROD0000241,Suraj Makeup,Beauty & Personal Care,Makeup,Zenda,482.0,732
+PROD0000242,Zenda Non-Fiction,Books,Non-Fiction,Amara,272.0,1052
+PROD0000243,Nirvi Non-Fiction,Books,Non-Fiction,Kanha,691.0,303
+PROD0000244,Ovi Storage,Home & Kitchen,Storage,Sattva,1454.0,9412
+PROD0000245,Rasa Iron,Appliances,Iron,Nirvi,5991.0,18217
+PROD0000246,Vira Storage,Home & Kitchen,Storage,Kaya,1421.0,1262
+PROD0000247,Nova Cameras,Electronics,Cameras,Sattva,40082.0,7235
+PROD0000248,Vayu Earphones,Mobiles & Accessories,Earphones,Meraki,20499.0,211
+PROD0000249,Zenda Kids Wear,Fashion,Kids Wear,Aveer,1502.0,815
+PROD0000250,Prisma Cases & Covers,Mobiles & Accessories,Cases & Covers,Prisma,9852.0,249
+PROD0000251,Orion Kids Wear,Fashion,Kids Wear,Vayu,2151.0,625
+PROD0000252,Ovi Beverages,Grocery,Beverages,Rasa,160.0,3257
+PROD0000253,Vira Snacks,Grocery,Snacks,Zenda,354.0,1669
+PROD0000254,Vayu Chargers,Mobiles & Accessories,Chargers,Rasa,52793.0,94
+PROD0000255,Amara Cases & Covers,Mobiles & Accessories,Cases & Covers,Ovi,14123.0,150
+PROD0000256,Vira Grooming,Beauty & Personal Care,Grooming,Ovi,327.0,768
+PROD0000257,Trisha Storage,Home & Kitchen,Storage,Vayu,1204.0,4030
+PROD0000258,Bluewood Power Banks,Mobiles & Accessories,Power Banks,Sattva,7876.0,255
+PROD0000259,Orion Non-Fiction,Books,Non-Fiction,Vira,430.0,466
+PROD0000260,BharatTech Tablets,Electronics,Tablets,Sattva,26976.0,1964
+PROD0000261,Rasa Smartphones,Mobiles & Accessories,Smartphones,Kaya,8729.0,204
+PROD0000262,BharatTech Iron,Appliances,Iron,BharatTech,2317.0,13693
+PROD0000263,Trisha Makeup,Beauty & Personal Care,Makeup,Aveer,937.0,500
+PROD0000264,Ovi Footwear,Fashion,Footwear,Kanha,2325.0,619
+PROD0000265,Suraj Fan,Appliances,Fan,Sattva,3388.0,21641
+PROD0000266,Orion School Supplies,Toys & Baby,School Supplies,Bluewood,962.0,2994
+PROD0000267,Vayu Smartphones,Mobiles & Accessories,Smartphones,Indus,28195.0,73
+PROD0000268,Tanish Fragrance,Beauty & Personal Care,Fragrance,Rasa,291.0,165
+PROD0000269,Zenda Tablets,Electronics,Tablets,BharatTech,15115.0,2214
+PROD0000270,Orion Dining,Home & Kitchen,Dining,Aveer,3279.0,2545
+PROD0000271,Rasa Women Ethnic,Fashion,Women Ethnic,Zenda,292.0,604
+PROD0000272,Trisha Women Ethnic,Fashion,Women Ethnic,Meraki,466.0,1424
+PROD0000273,Kanha Laptops,Electronics,Laptops,Nova,14618.0,7104
+PROD0000274,Indus Fiction,Books,Fiction,Sattva,346.0,416
+PROD0000275,Ovi Footwear,Fashion,Footwear,Aveer,333.0,137
+PROD0000276,Zivame Beverages,Grocery,Beverages,Meraki,373.0,9218
+PROD0000277,Amara Footwear,Fashion,Footwear,Orion,1273.0,988
+PROD0000278,Aveer Snacks,Grocery,Snacks,Vira,186.0,5506
+PROD0000279,Trisha Furnishing,Home & Kitchen,Furnishing,Nova,877.0,8396
+PROD0000280,Kanha Women Ethnic,Fashion,Women Ethnic,Nirvi,614.0,1485
+PROD0000281,Aveer Iron,Appliances,Iron,Trisha,2734.0,24591
+PROD0000282,Orion Regional,Books,Regional,Vayu,742.0,951
+PROD0000283,Indus Decor,Home & Kitchen,Decor,Rasa,1088.0,10150
+PROD0000284,Tanish Kids Wear,Fashion,Kids Wear,Kanha,687.0,861
+PROD0000285,Vayu Furnishing,Home & Kitchen,Furnishing,Prisma,658.0,2503
+PROD0000286,Orion Cookware,Home & Kitchen,Cookware,Orion,1937.0,5109
+PROD0000287,Suraj Watches,Fashion,Watches,Amara,798.0,995
+PROD0000288,Vira Fiction,Books,Fiction,BharatTech,409.0,674
+PROD0000289,Indus Women Ethnic,Fashion,Women Ethnic,Nirvi,1110.0,938
+PROD0000290,Nirvi Watches,Fashion,Watches,Yugen,397.0,808
+PROD0000291,BharatTech Haircare,Beauty & Personal Care,Haircare,Kaya,455.0,250
+PROD0000292,Kanha Footwear,Sports & Fitness,Footwear,BharatTech,1063.0,6358
+PROD0000293,Trisha Monitors,Electronics,Monitors,Araku,68105.0,7227
+PROD0000294,Nova Monitors,Electronics,Monitors,Kaya,13197.0,903
+PROD0000295,Vira Laptops,Electronics,Laptops,Nova,24485.0,1003
+PROD0000296,Kaya Haircare,Beauty & Personal Care,Haircare,Kaya,465.0,146
+PROD0000297,Sattva Bags,Fashion,Bags,Araku,450.0,982
+PROD0000298,Tanish Watches,Fashion,Watches,Trisha,900.0,1365
+PROD0000299,Nirvi Tablets,Electronics,Tablets,Meraki,28050.0,6850
+PROD0000300,Orion School Supplies,Toys & Baby,School Supplies,Bluewood,592.0,4113
+PROD0000301,Kaya Kids Wear,Fashion,Kids Wear,Tanish,1738.0,1099
+PROD0000302,Orion Fragrance,Beauty & Personal Care,Fragrance,Bluewood,1162.0,656
+PROD0000303,Vira Chargers,Mobiles & Accessories,Chargers,Yugen,11977.0,175
+PROD0000304,Kaya Earphones,Mobiles & Accessories,Earphones,Nirvi,7085.0,103
+PROD0000305,Araku Power Banks,Mobiles & Accessories,Power Banks,Orion,23987.0,373
+PROD0000306,Zenda Kids Wear,Fashion,Kids Wear,Amara,887.0,1290
+PROD0000307,Trisha Storage,Home & Kitchen,Storage,Nova,943.0,5846
+PROD0000308,Trisha Monitors,Electronics,Monitors,Sattva,19380.0,7825
+PROD0000309,Araku Footwear,Fashion,Footwear,Kaya,582.0,875
+PROD0000310,Indus Power Banks,Mobiles & Accessories,Power Banks,Meraki,11934.0,328
+PROD0000311,Bluewood Footwear,Fashion,Footwear,Vayu,276.0,1183
+PROD0000312,Zivame Chargers,Mobiles & Accessories,Chargers,Orion,21485.0,145
+PROD0000313,Yugen Smartphones,Mobiles & Accessories,Smartphones,Nova,25092.0,117
+PROD0000314,Prisma Chargers,Mobiles & Accessories,Chargers,Nova,17443.0,79
+PROD0000315,Ovi Fan,Appliances,Fan,Nirvi,1387.0,20465
+PROD0000316,Zenda School Supplies,Toys & Baby,School Supplies,Zenda,318.0,4707
+PROD0000317,Prisma Haircare,Beauty & Personal Care,Haircare,Zivame,429.0,285
+PROD0000318,Vira Earphones,Mobiles & Accessories,Earphones,Nirvi,56021.0,303
+PROD0000319,Kaya Fitness Equipment,Sports & Fitness,Fitness Equipment,Yugen,1385.0,13269
+PROD0000320,Suraj Fitness Equipment,Sports & Fitness,Fitness Equipment,Amara,781.0,7449
+PROD0000321,BharatTech Women Ethnic,Fashion,Women Ethnic,Zenda,1518.0,1326
+PROD0000322,Suraj Power Banks,Mobiles & Accessories,Power Banks,Indus,5809.0,370
+PROD0000323,Indus Water Purifier,Appliances,Water Purifier,Araku,3295.0,9025
+PROD0000324,Prisma Yoga,Sports & Fitness,Yoga,Aveer,1967.0,6321
+PROD0000325,Meraki Non-Fiction,Books,Non-Fiction,Tanish,331.0,360
+PROD0000326,Tanish Skincare,BEAUTY & PERSONAL CARE,Skincare,Prisma,768.0,576
+PROD0000327,Sattva Skincare,Beauty & Personal Care,Skincare,Indus,667.0,250
+PROD0000328,Nirvi Cycling,Sports & Fitness,Cycling,Sattva,2278.0,5930
+PROD0000329,Aveer Power Banks,Mobiles & Accessories,Power Banks,Vira,9565.0,131
+PROD0000330,Kaya Cases & Covers,Mobiles & Accessories,Cases & Covers,Vira,13029.0,267
+PROD0000331,Amara Household,Grocery,Household,Zenda,626.0,1641
+PROD0000332,Nirvi Chargers,Mobiles & Accessories,Chargers,Indus,52020.0,117
+PROD0000333,Ovi Bags,Fashion,Bags,Kaya,600.0,396
+PROD0000334,Suraj Kids Wear,Fashion,Kids Wear,Zivame,478.0,1304
+PROD0000335,Zivame Cameras,Electronics,Cameras,Kanha,13253.0,3987
+PROD0000336,Aveer Power Banks,Mobiles & Accessories,Power Banks,Zenda,40322.0,370
+PROD0000337,Vayu Dining,Home & Kitchen,Dining,Zenda,1003.0,8353
+PROD0000338,Nirvi Watches,Fashion,Watches,Indus,350.0,1062
+PROD0000339,Rasa Furnishing,Home & Kitchen,Furnishing,Yugen,978.0,4355
+PROD0000340,Kanha Women Ethnic,Fashion,Women Ethnic,Bluewood,407.0,719
+PROD0000341,Nirvi Yoga,Sports & Fitness,Yoga,BharatTech,2584.0,9037
+PROD0000342,Nova Decor,Home & Kitchen,Decor,Aveer,1345.0,6371
+PROD0000343,Kaya Yoga,Sports & Fitness,Yoga,Vayu,2163.0,4242
+PROD0000344,Meraki Watches,Fashion,Watches,Zivame,530.0,1184
+PROD0000345,Sattva Power Banks,Mobiles & Accessories,Power Banks,Rasa,30471.0,140
+PROD0000346,Vayu Fiction,Books,Fiction,Tanish,745.0,306
+PROD0000347,Vira Beverages,grocery,Beverages,Zenda,862.0,2594
+PROD0000348,Meraki Earphones,Mobiles & Accessories,Earphones,Aveer,9691.0,65
+PROD0000349,Vayu Grooming,Beauty & Personal Care,Grooming,Vira,984.0,783
+PROD0000350,Araku Haircare,Beauty & Personal Care,Haircare,Vayu,956.0,630
+PROD0000351,Yugen Power Banks,Mobiles & Accessories,Power Banks,Kanha,10333.0,356
+PROD0000352,Kanha Decor,Home & Kitchen,Decor,Aveer,653.0,6143
+PROD0000353,Bluewood Laptops,Electronics,Laptops,Zenda,14936.0,1444
+PROD0000354,Araku Cases & Covers,Mobiles & Accessories,Cases & Covers,Kanha,9509.0,380
+PROD0000355,Kanha Personal Hygiene,Grocery,Personal Hygiene,Orion,212.0,3336
+PROD0000356,Ovi Furnishing,Home & Kitchen,Furnishing,Suraj,378.0,334
+PROD0000357,Zivame Regional,Books,Regional,Suraj,694.0,535
+PROD0000358,Trisha Microwave,APPLIANCES,Microwave,BharatTech,9651.0,7270
+PROD0000359,Prisma Fitness Equipment,Sports & Fitness,Fitness Equipment,Zenda,1397.0,13141
+PROD0000360,Bluewood Bags,Fashion,Bags,Trisha,788.0,336
+PROD0000361,Rasa Men Topwear,Fashion,Men Topwear,Yugen,462.0,1078
+PROD0000362,Sattva Watches,Fashion,Watches,Aveer,996.0,907
+PROD0000363,Sattva Skincare,Beauty & Personal Care,Skincare,Tanish,588.0,333
+PROD0000364,Zivame Furnishing,Home & Kitchen,Furnishing,Prisma,1671.0,6925
+PROD0000365,Orion Iron,Appliances,Iron,Aveer,1365.0,532
+PROD0000366,Rasa Watches,Fashion,Watches,Bluewood,785.0,1344
+PROD0000367,Aveer Cases & Covers,Mobiles & Accessories,Cases & Covers,Kaya,9748.0,177
+PROD0000368,Aveer Personal Hygiene,Grocery,Personal Hygiene,Kanha,678.0,2091
+PROD0000369,Orion Snacks,Grocery,Snacks,Yugen,81.0,4428
+PROD0000370,Orion Watches,Fashion,Watches,Sattva,3051.0,969
+PROD0000371,Vira Microwave,Appliances,Microwave,Aveer,3453.0,24827
+PROD0000372,Sattva Storage,Home & Kitchen,Storage,Meraki,406.0,6901
+PROD0000373,Orion Non-Fiction,Books,Non-Fiction,Prisma,676.0,285
+PROD0000374,Suraj Watches,Fashion,Watches,Kaya,352.0,836
+PROD0000375,Vira Storage,Home & Kitchen,Storage,Vayu,2078.0,11894
+PROD0000376,Yugen Power Banks,Mobiles & Accessories,Power Banks,Trisha,34089.0,366
+PROD0000377,Tanish Laptops,Electronics,Laptops,Trisha,17028.0,1348
+PROD0000378,Orion Non-Fiction,Books,Non-Fiction,Aveer,79.0,873
+PROD0000379,Ovi Kids Wear,Fashion,Kids Wear,Tanish,982.0,833
+PROD0000380,Nova Earphones,Mobiles & Accessories,Earphones,Ovi,13117.0,120
+PROD0000381,Ovi Cameras,Electronics,Cameras,Rasa,15568.0,2240
+PROD0000382,Trisha Men Topwear,Fashion,Men Topwear,Bluewood,989.0,877
+PROD0000383,Trisha Water Purifier,Appliances,Water Purifier,Vayu,3393.0,18450
+PROD0000384,Meraki Watches,Fashion,Watches,Indus,510.0,1347
+PROD0000385,Trisha Iron,Appliances,Iron,Indus,4099.0,23457
+PROD0000386,BharatTech Staples,Grocery,Staples,Kaya,540.0,8147
+PROD0000387,Amara Bags,Fashion,Bags,Nova,947.0,1200
+PROD0000388,Aveer Children,Books,Children,Kanha,445.0,1037
+PROD0000389,Araku Earphones,Mobiles & Accessories,Earphones,Suraj,14107.0,130
+PROD0000390,Orion Bags,Fashion,Bags,Nirvi,1373.0,230
+PROD0000391,Rasa Power Banks,Mobiles & Accessories,Power Banks,Tanish,22963.0,229
+PROD0000392,Indus Chargers,Mobiles & Accessories,Chargers,Nirvi,6008.0,252
+PROD0000393,Vira Earphones,Mobiles & Accessories,Earphones,Indus,15440.0,173
+PROD0000394,Indus Earphones,Mobiles & Accessories,Earphones,Tanish,8205.0,326
+PROD0000395,Sattva Beverages,Grocery,Beverages,Vayu,187.0,7406
+PROD0000396,Suraj Cookware,Home & Kitchen,Cookware,Yugen,3061.0,6218
+PROD0000397,Bluewood Yoga,Sports & Fitness,Yoga,Trisha,3520.0,6368
+PROD0000398,Nirvi Storage,Home & Kitchen,Storage,Zivame,1187.0,10819
+PROD0000399,Vira Grooming,Beauty & Personal Care,Grooming,Suraj,236.0,408
+PROD0000400,Amara Speakers,electronics,Speakers,Vayu,47737.0,5530
+PROD0000401,Nova Decor,Home & Kitchen,Decor,Indus,2655.0,4319
+PROD0000402,Vira Footwear,Fashion,Footwear,Prisma,948.0,845
+PROD0000403,Yugen Diapers,TOYS & BABY,Diapers,Araku,783.0,1245
+PROD0000404,Rasa Baby Care,Toys & Baby,Baby Care,Zivame,1276.0,3521
+PROD0000405,Zivame Speakers,Electronics,Speakers,Bluewood,22884.0,908
+PROD0000406,Indus Grooming,Beauty & Personal Care,Grooming,Indus,527.0,94
+PROD0000407,Vira Makeup,Beauty & Personal Care,Makeup,Ovi,592.0,152
+PROD0000408,BharatTech Dining,Home & Kitchen,Dining,Indus,1282.0,8411
+PROD0000409,Yugen Smartphones,Mobiles & Accessories,Smartphones,Yugen,12757.0,323
+PROD0000410,Vayu Fragrance,BEAUTY & PERSONAL CARE,Fragrance,Kanha,701.0,799
+PROD0000411,Araku Academic,Books,Academic,Prisma,392.0,1167
+PROD0000412,Rasa Kids Wear,Fashion,Kids Wear,Tanish,1925.0,502
+PROD0000413,Indus Furnishing,Home & Kitchen,Furnishing,Vira,3130.0,10840
+PROD0000414,Indus Cases & Covers,Mobiles & Accessories,Cases & Covers,Orion,10864.0,74
+PROD0000415,Nova Toys,Toys & Baby,Toys,Nova,849.0,1698
+PROD0000416,Kaya Cases & Covers,Mobiles & Accessories,Cases & Covers,Indus,10560.0,397
+PROD0000417,Sattva Laptops,Electronics,Laptops,Trisha,17242.0,5186
+PROD0000418,Orion Women Ethnic,Fashion,Women Ethnic,Aveer,271.0,330
+PROD0000419,Nirvi Snacks,Grocery,Snacks,Zivame,511.0,9179
+PROD0000420,Aveer Iron,Appliances,Iron,Amara,2061.0,19798
+PROD0000421,Bluewood Chargers,Mobiles & Accessories,Chargers,Rasa,16980.0,89
+PROD0000422,Zivame Cameras,Electronics,Cameras,Zenda,24393.0,6459
+PROD0000423,Nirvi Non-Fiction,Books,Non-Fiction,Nova,342.0,374
+PROD0000424,Nirvi Footwear,Fashion,Footwear,Aveer,566.0,1312
+PROD0000425,Sattva Cases & Covers,Mobiles & Accessories,Cases & Covers,Meraki,16940.0,225
+PROD0000426,Vayu Footwear,Sports & Fitness,Footwear,Orion,2449.0,6472
+PROD0000427,Tanish Cases & Covers,Mobiles & Accessories,Cases & Covers,Suraj,13291.0,186
+PROD0000428,Vayu Decor,Home & Kitchen,Decor,Vayu,1011.0,2014
+PROD0000429,Araku Tablets,Electronics,Tablets,Zenda,33209.0,1277
+PROD0000430,Amara Mixer Grinder,Appliances,Mixer Grinder,Bluewood,1598.0,11039
+PROD0000431,Kanha Academic,Books,Academic,Bluewood,488.0,594
+PROD0000432,Nirvi Bags,Fashion,Bags,Araku,2023.0,1301
+PROD0000433,Orion Fragrance,Beauty & Personal Care,Fragrance,Meraki,399.0,662
+PROD0000434,Nirvi School Supplies,Toys & Baby,School Supplies,Aveer,105.0,1634
+PROD0000435,Amara Personal Hygiene,Grocery,Personal Hygiene,Trisha,176.0,8374
+PROD0000436,Prisma Footwear,Fashion,Footwear,Amara,1485.0,1416
+PROD0000437,Kanha Footwear,Fashion,Footwear,BharatTech,1210.0,651
+PROD0000438,Kaya Beverages,Grocery,Beverages,Suraj,288.0,3182
+PROD0000439,Suraj Smartphones,Mobiles & Accessories,Smartphones,Aveer,18391.0,197
+PROD0000440,Kaya Smartphones,Mobiles & Accessories,Smartphones,Tanish,9302.0,77
+PROD0000441,Ovi Speakers,Electronics,Speakers,Vira,19028.0,7877
+PROD0000442,Zivame Snacks,Grocery,Snacks,Suraj,191.0,679
+PROD0000443,Nirvi Chargers,Mobiles & Accessories,Chargers,Vayu,21821.0,157
+PROD0000444,BharatTech Watches,Fashion,Watches,Sattva,1771.0,696
+PROD0000445,Meraki Skincare,Beauty & Personal Care,Skincare,Araku,1122.0,679
+PROD0000446,Kaya Tablets,Electronics,Tablets,Sattva,37771.0,7902
+PROD0000447,Indus Watches,Fashion,Watches,Prisma,313.0,1190
+PROD0000448,Meraki Kids Wear,Fashion,Kids Wear,Sattva,1393.0,369
+PROD0000449,Meraki Tablets,Electronics,Tablets,Kaya,11431.0,2481
+PROD0000450,Meraki Cycling,Sports & Fitness,Cycling,Orion,3217.0,1098
+PROD0000451,Prisma Smart Watches,Electronics,Smart Watches,Prisma,43801.0,1030
+PROD0000452,Nova Snacks,Grocery,Snacks,Zenda,266.0,1601
+PROD0000453,Yugen Dining,Home & Kitchen,Dining,Trisha,354.0,6891
+PROD0000454,Trisha Earphones,Mobiles & Accessories,Earphones,Yugen,13391.0,41
+PROD0000455,Zivame Cases & Covers,Mobiles & Accessories,Cases & Covers,BharatTech,11496.0,391
+PROD0000456,Amara Decor,Home & Kitchen,Decor,BharatTech,1243.0,11045
+PROD0000457,Yugen Watches,Fashion,Watches,Ovi,1614.0,176
+PROD0000458,Nirvi Speakers,Electronics,Speakers,Rasa,22886.0,2706
+PROD0000459,Kaya Footwear,Sports & Fitness,Footwear,Sattva,3330.0,13273
+PROD0000460,Vayu Women Ethnic,Fashion,Women Ethnic,Araku,626.0,688
+PROD0000461,Nirvi Toys,Toys & Baby,Toys,Indus,1128.0,3081
+PROD0000462,Indus Cameras,Electronics,Cameras,Zivame,22400.0,2178
+PROD0000463,Suraj Laptops,electronics,Laptops,Rasa,15710.0,2340
+PROD0000464,Vira Storage,Home & Kitchen,Storage,Bluewood,3323.0,6761
+PROD0000465,Nirvi Laptops,Electronics,Laptops,Prisma,11706.0,7411
+PROD0000466,Kanha Smart Watches,Electronics,Smart Watches,Zivame,9196.0,1365
+PROD0000467,BharatTech Cases & Covers,Mobiles & Accessories,Cases & Covers,Aveer,9688.0,83
+PROD0000468,Vira Cases & Covers,Mobiles & Accessories,Cases & Covers,Kanha,13134.0,209
+PROD0000469,Suraj Academic,Books,Academic,Aveer,403.0,664
+PROD0000470,BharatTech Men Topwear,Fashion,Men Topwear,Prisma,3818.0,981
+PROD0000471,Zenda Cycling,Sports & Fitness,Cycling,Indus,1399.0,7147
+PROD0000472,Prisma Monitors,Electronics,Monitors,Amara,15119.0,2638
+PROD0000473,Nova Kids Wear,Fashion,Kids Wear,Sattva,1002.0,739
+PROD0000474,Suraj Footwear,Fashion,Footwear,Bluewood,269.0,395
+PROD0000475,Vayu Storage,Home & Kitchen,Storage,Ovi,1743.0,10733
+PROD0000476,Indus Personal Hygiene,Grocery,Personal Hygiene,Nirvi,818.0,7941
+PROD0000477,BharatTech Staples,Grocery,Staples,Nirvi,282.0,3469
+PROD0000478,Kaya Earphones,Mobiles & Accessories,Earphones,Aveer,41965.0,110
+PROD0000479,Meraki Women Ethnic,Fashion,Women Ethnic,Rasa,1109.0,827
+PROD0000480,Tanish Personal Hygiene,Grocery,Personal Hygiene,Rasa,954.0,7233
+PROD0000481,Kaya Power Banks,Mobiles & Accessories,Power Banks,BharatTech,14486.0,96
+PROD0000482,Amara Decor,Home & Kitchen,Decor,Nova,978.0,5154
+PROD0000483,Prisma Speakers,Electronics,Speakers,Trisha,31775.0,6332
+PROD0000484,Vayu Women Ethnic,Fashion,Women Ethnic,Amara,605.0,1420
+PROD0000485,Trisha Men Topwear,Fashion,Men Topwear,Kaya,1706.0,484
+PROD0000486,Aveer Women Ethnic,Fashion,Women Ethnic,Tanish,1215.0,660
+PROD0000487,Aveer Toys,Toys & Baby,Toys,Zivame,1167.0,3421
+PROD0000488,Trisha Storage,Home & Kitchen,Storage,Zivame,1557.0,10663
+PROD0000489,Suraj School Supplies,Toys & Baby,School Supplies,Orion,592.0,2953
+PROD0000490,Amara Water Purifier,Appliances,Water Purifier,Nirvi,1639.0,4053
+PROD0000491,Vayu Bags,Fashion,Bags,Suraj,647.0,537
+PROD0000492,Kaya Storage,Home & Kitchen,Storage,Nova,2216.0,7620
+PROD0000493,Zenda Watches,Fashion,Watches,Zivame,2054.0,511
+PROD0000494,Indus Snacks,Grocery,Snacks,Orion,242.0,4632
+PROD0000495,Kanha Laptops,Electronics,Laptops,Kaya,13555.0,601
+PROD0000496,Zivame School Supplies,Toys & Baby,School Supplies,Meraki,1204.0,570
+PROD0000497,Amara Furnishing,Home & Kitchen,Furnishing,Zenda,1239.0,5852
+PROD0000498,Prisma Haircare,Beauty & Personal Care,Haircare,Sattva,604.0,533
+PROD0000499,Zenda Decor,Home & Kitchen,Decor,Yugen,5507.0,2736
+PROD0000500,Yugen Storage,Home & Kitchen,Storage,Suraj,977.0,2214
+PROD0000501,Yugen Makeup,Beauty & Personal Care,Makeup,Araku,361.0,216
+PROD0000502,Araku Makeup,Beauty & Personal Care,Makeup,Trisha,466.0,129
+PROD0000503,Suraj Cameras,Electronics,Cameras,Prisma,9814.0,626
+PROD0000504,BharatTech Cookware,Home & Kitchen,Cookware,Tanish,2255.0,3607
+PROD0000505,Bluewood Watches,Fashion,Watches,Araku,1507.0,1018
+PROD0000506,Araku Haircare,Beauty & Personal Care,Haircare,Trisha,1730.0,594
+PROD0000507,Trisha Decor,Home & Kitchen,Decor,Vayu,1975.0,9102
+PROD0000508,Meraki Tablets,Electronics,Tablets,Rasa,13950.0,2520
+PROD0000509,Zenda Water Purifier,Appliances,Water Purifier,Suraj,7275.0,1656
+PROD0000510,Zivame Men Topwear,Fashion,Men Topwear,Kaya,570.0,624
+PROD0000511,Araku Storage,Home & Kitchen,Storage,Sattva,884.0,5723
+PROD0000512,Bluewood Skincare,Beauty & Personal Care,Skincare,Kaya,863.0,299
+PROD0000513,Aveer Grooming,Beauty & Personal Care,Grooming,Araku,1066.0,50
+PROD0000514,Trisha Fan,Appliances,Fan,Nova,2038.0,19907
+PROD0000515,Prisma Laptops,Electronics,Laptops,BharatTech,18612.0,7747
+PROD0000516,Kaya Power Banks,Mobiles & Accessories,Power Banks,Ovi,7993.0,174
+PROD0000517,Orion Fragrance,Beauty & Personal Care,Fragrance,Bluewood,338.0,66
+PROD0000518,Orion Laptops,Electronics,Laptops,Yugen,19019.0,6740
+PROD0000519,Zenda Smartphones,Mobiles & Accessories,Smartphones,Aveer,24862.0,389
+PROD0000520,Araku Earphones,Mobiles & Accessories,Earphones,BharatTech,11570.0,207

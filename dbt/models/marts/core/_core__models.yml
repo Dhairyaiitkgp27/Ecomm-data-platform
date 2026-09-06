@@ -1,0 +1,106 @@
+version: 2
+
+models:
+  # ---------------- Dimensions ----------------
+  - name: dim_date
+    description: "Calendar date dimension. GRAIN: one row per calendar day."
+    columns:
+      - name: date_key
+        description: Integer surrogate key YYYYMMDD.
+        data_tests: [not_null, unique]
+
+  - name: dim_customer
+    description: "Customer dimension (current state). GRAIN: one row per customer."
+    columns:
+      - name: customer_id
+        data_tests: [not_null, unique]
+
+  - name: dim_product
+    description: "Product dimension. GRAIN: one row per product."
+    columns:
+      - name: product_id
+        data_tests: [not_null, unique]
+
+  - name: dim_seller
+    description: "Seller dimension (current state). GRAIN: one row per seller."
+    columns:
+      - name: seller_id
+        data_tests: [not_null, unique]
+
+  - name: dim_seller_history
+    description: "SCD Type 2 seller dimension. GRAIN: one row per seller version."
+    columns:
+      - name: seller_version_key
+        data_tests: [not_null, unique]
+      - name: seller_id
+        data_tests: [not_null]
+      - name: is_current
+        data_tests: [not_null]
+
+  - name: dim_location
+    description: "Conformed location dimension. GRAIN: one row per (city, state)."
+    columns:
+      - name: location_key
+        data_tests: [not_null, unique]
+
+  # ---------------- Facts ----------------
+  - name: fact_orders
+    description: "GRAIN: one row per order. Order-level measures + SLA rollup."
+    columns:
+      - name: order_id
+        data_tests: [not_null, unique]
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships: {to: ref('dim_customer'), field: customer_id}
+      - name: order_date_key
+        data_tests:
+          - relationships: {to: ref('dim_date'), field: date_key}
+      - name: gmv_inr
+        data_tests:
+          - dbt_utils.accepted_range: {min_value: 0, inclusive: true}
+
+  - name: fact_order_items
+    description: "GRAIN: one row per product line within an order. Incremental."
+    columns:
+      - name: product_id
+        data_tests:
+          - not_null
+          - relationships: {to: ref('dim_product'), field: product_id}
+      - name: seller_id
+        data_tests:
+          - relationships: {to: ref('dim_seller'), field: seller_id}
+      - name: order_date_key
+        data_tests:
+          - relationships: {to: ref('dim_date'), field: date_key}
+      - name: quantity
+        data_tests:
+          - dbt_utils.accepted_range: {min_value: 1, inclusive: true}
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [order_id, order_item_id]
+
+  - name: fact_payments
+    description: "GRAIN: one row per payment record (order_id + payment_sequential)."
+    columns:
+      - name: payment_status
+        data_tests:
+          - accepted_values: {values: ["paid","pending","failed","refunded","unknown"]}
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [order_id, payment_sequential]
+
+  - name: fact_shipments
+    description: "GRAIN: one row per order shipment."
+    columns:
+      - name: order_id
+        data_tests: [not_null]
+
+  - name: fact_returns
+    description: "GRAIN: one row per returned order line."
+    columns:
+      - name: return_id
+        data_tests: [not_null, unique]
+      - name: order_id
+        data_tests:
+          - relationships: {to: ref('fact_orders'), field: order_id}

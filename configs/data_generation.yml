@@ -1,0 +1,31 @@
+# Full-run volumes for the synthetic generator. Loaded by generator/config.py
+# when PyYAML is installed; CLI flags override these.
+n_orders: 200000
+n_customers: 80000
+n_products: 15000
+n_sellers: 2000
+
+start_date: "2023-01-01"
+end_date: "2024-12-31"
+
+max_items_per_order: 6
+repeat_customer_zipf_a: 1.6
+festival_uplift: 2.8
+weekend_uplift: 1.25
+
+# data-quality defect rates (fraction of affected rows)
+dq_duplicate_orders: 0.005
+dq_duplicate_customers: 0.003
+dq_null_city: 0.02
+dq_null_payment_value: 0.01
+dq_null_delivered_ts: 0.02
+dq_dirty_city_names: 0.06
+dq_dirty_categories: 0.04
+dq_dirty_payment_status: 0.10
+dq_invalid_dates: 0.01
+dq_bad_quantity: 0.005
+dq_negative_price: 0.002
+dq_orphan_order_items: 0.003
+
+output_dir: "data/raw"
+seed: 42

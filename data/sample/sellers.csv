@@ -1,0 +1,106 @@
+seller_id,seller_name,seller_city,seller_state,seller_tier,seller_pincode,onboarded_date,seller_rating,business_type
+SELL000000,Vayu Mart,Ahmedabad,Gujarat,1,504462,2020-12-31,4.0,Brand Store
+SELL000001,Zivame Enterprises,Chandigarh,Chandigarh,1,629856,2022-11-22,4.5,Small Business
+SELL000002,Vayu Traders,Jaipur,Rajasthan,2,461596,2023-12-29,4.1,Small Business
+SELL000003,Prisma Enterprises,Mumbai,Maharashtra,1,503607,2021-12-09,3.7,Individual
+SELL000004,BharatTech Retail,Bhubaneswar,Odisha,2,595328,2022-11-16,3.9,Reseller
+SELL000005,Zenda Store,Madurai,Tamil Nadu,3,421221,2023-05-31,3.0,Small Business
+SELL000006,Indus Enterprises,Mumbai,Maharashtra,1,500739,2023-06-14,3.9,Brand Store
+SELL000007,Nova Retail,Delhi,Delhi,1,173648,2022-10-03,3.8,Brand Store
+SELL000008,Prisma Enterprises,Patna,Bihar,2,758119,2022-06-16,3.5,Small Business
+SELL000009,Bluewood Mart,Surat,Gujarat,2,203922,2022-11-09,3.6,Reseller
+SELL000010,Kanha Mart,Chennai,Tamil Nadu,1,760453,2022-09-16,3.8,Small Business
+SELL000011,Bluewood Retail,Ahmedabad,Gujarat,1,676494,2023-08-14,4.5,Small Business
+SELL000012,Nirvi Store,Patna,Bihar,2,816119,2021-04-14,4.5,Individual
+SELL000013,Nirvi Enterprises,Pune,Maharashtra,1,128378,2023-09-19,3.5,Individual
+SELL000014,Meraki Mart,Delhi,Delhi,1,271814,2022-10-22,3.7,Small Business
+SELL000015,Araku Store,Mumbai,Maharashtra,1,148974,2021-09-17,3.8,Individual
+SELL000016,Yugen Enterprises,Kolkata,West Bengal,1,421150,2023-03-20,4.4,Small Business
+SELL000017,BharatTech Mart,Madurai,Tamil Nadu,3,784065,2022-02-16,4.1,Reseller
+SELL000018,Araku Enterprises,Jaipur,Rajasthan,2,680963,2023-01-23,4.0,Small Business
+SELL000019,Araku Store,Chennai,Tamil Nadu,1,634560,2024-01-08,4.3,Individual
+SELL000020,Vayu Enterprises,Meerut,Uttar Pradesh,3,742157,2023-03-28,3.7,Small Business
+SELL000021,Trisha Store,Chennai,Tamil Nadu,1,113139,2023-06-26,4.7,Individual
+SELL000022,Vira Enterprises,Pune,Maharashtra,1,696901,2022-06-29,4.0,Brand Store
+SELL000023,Rasa Enterprises,Delhi,Delhi,1,342509,2023-02-15,3.6,Small Business
+SELL000024,BharatTech Retail,Coimbatore,Tamil Nadu,2,624823,2021-12-10,3.9,Small Business
+SELL000025,Trisha Mart,Patna,Bihar,2,678761,2022-10-30,4.6,Small Business
+SELL000026,Nirvi Traders,Guwahati,Assam,3,620964,2023-09-20,3.8,Small Business
+SELL000027,Meraki Store,Hyderabad,Telangana,1,421162,2021-07-03,4.5,Individual
+SELL000028,Nova Retail,Kolkata,West Bengal,1,565707,2022-02-28,3.7,Individual
+SELL000029,Aveer Mart,Delhi,Delhi,1,459309,2023-07-16,3.6,Small Business
+SELL000030,Zivame Traders,Siliguri,West Bengal,3,578169,2021-11-13,4.3,Brand Store
+SELL000031,Suraj Retail,Mumbai,Maharashtra,1,451859,2023-09-22,3.6,Individual
+SELL000032,Nova Mart,Nagpur,Maharashtra,2,403617,2022-06-28,4.4,Individual
+SELL000033,Vayu Traders,Patna,Bihar,2,260614,2023-07-20,4.2,Individual
+SELL000034,Ovi Retail,Delhi,Delhi,1,398693,2021-09-15,3.6,Small Business
+SELL000035,Zivame Mart,Chennai,Tamil Nadu,1,647521,2022-06-27,4.0,Individual
+SELL000036,Aveer Traders,Mumbai,Maharashtra,1,758437,2022-03-29,3.7,Brand Store
+SELL000037,Prisma Traders,Jaipur,Rajasthan,2,186752,2022-04-20,4.2,Individual
+SELL000038,Vira Traders,Panaji,Goa,2,246205,2023-07-17,4.9,Small Business
+SELL000039,BharatTech Mart,Kolkata,West Bengal,1,487961,2022-08-21,3.8,Individual
+SELL000040,Nirvi Mart,Gangtok,Sikkim,3,633503,2023-04-21,4.3,Small Business
+SELL000041,Araku Store,Delhi,Delhi,1,236637,2023-06-24,4.0,Individual
+SELL000042,Prisma Store,Chennai,Tamil Nadu,1,352075,2021-05-07,4.0,Small Business
+SELL000043,Amara Traders,Agra,Uttar Pradesh,3,144673,2022-06-07,3.9,Reseller
+SELL000044,Kanha Enterprises,Vadodara,Gujarat,2,149187,2023-10-07,3.6,Individual
+SELL000045,Rasa Enterprises,Hyderabad,Telangana,1,216734,2022-08-22,4.2,Reseller
+SELL000046,Kanha Enterprises,Indore,Madhya Pradesh,2,653320,2022-02-19,3.9,Individual
+SELL000047,Suraj Enterprises,Rajkot,Gujarat,2,757756,2021-03-25,3.5,Small Business
+SELL000048,Rasa Store,Thiruvananthapuram,Kerala,2,481703,2022-06-24,4.5,Small Business
+SELL000049,Suraj Enterprises,Lucknow,Uttar Pradesh,2,241251,2021-12-04,4.0,Individual
+SELL000050,Prisma Enterprises,Delhi,Delhi,1,796576,2022-10-08,3.9,Small Business
+SELL000051,Zenda Traders,Mumbai,Maharashtra,1,317418,2023-09-20,4.7,Individual
+SELL000052,Ovi Traders,Lucknow,Uttar Pradesh,2,225263,2022-01-22,3.1,Small Business
+SELL000053,Suraj Enterprises,Pune,Maharashtra,1,212897,2022-04-06,4.6,Small Business
+SELL000054,Prisma Enterprises,Bengaluru,Karnataka,1,373078,2021-09-19,3.6,Brand Store
+SELL000055,Orion Traders,Hyderabad,Telangana,1,658067,2022-05-24,4.1,Individual
+SELL000056,Prisma Retail,Chennai,Tamil Nadu,1,405892,2022-09-02,3.7,Reseller
+SELL000057,Nirvi Store,Pune,Maharashtra,1,441912,2021-12-02,3.5,Individual
+SELL000058,Prisma Mart,Chennai,Tamil Nadu,1,363546,2022-10-03,4.7,Small Business
+SELL000059,Suraj Store,Chennai,Tamil Nadu,1,813118,2024-06-27,4.9,Individual
+SELL000060,Tanish Store,Delhi,Delhi,1,619364,2021-06-12,3.9,Individual
+SELL000061,Rasa Mart,Nashik,Maharashtra,2,604999,2022-12-09,4.2,Individual
+SELL000062,Suraj Retail,Lucknow,Uttar Pradesh,2,436077,2021-03-31,4.0,Small Business
+SELL000063,Kanha Store,Delhi,Delhi,1,505947,2022-02-05,4.9,Individual
+SELL000064,Araku Retail,Kolkata,West Bengal,1,769423,2022-11-25,2.9,Small Business
+SELL000065,Araku Traders,Kolkata,West Bengal,1,599267,2024-03-26,4.2,Reseller
+SELL000066,Rasa Traders,Surat,Gujarat,2,716357,2023-08-10,3.6,Individual
+SELL000067,Ovi Enterprises,Lucknow,Uttar Pradesh,2,140122,2023-06-01,2.8,Individual
+SELL000068,Zenda Store,Kanpur,Uttar Pradesh,2,750486,2021-09-02,3.8,Individual
+SELL000069,Bluewood Enterprises,Patna,Bihar,2,818353,2022-11-08,4.9,Individual
+SELL000070,Zivame Store,Delhi,Delhi,1,607814,2023-04-06,3.7,Small Business
+SELL000071,Vayu Mart,Hyderabad,Telangana,1,822652,2022-03-14,4.4,Small Business
+SELL000072,Ovi Retail,Mumbai,Maharashtra,1,533032,2021-02-12,4.6,Individual
+SELL000073,Kanha Enterprises,Kolkata,West Bengal,1,315757,2020-12-23,4.0,Individual
+SELL000074,Aveer Retail,Kolkata,West Bengal,1,561758,2021-06-28,4.1,Small Business
+SELL000075,Rasa Traders,Coimbatore,Tamil Nadu,2,578154,2021-10-29,3.1,Individual
+SELL000076,Meraki Mart,Delhi,Delhi,1,217757,2022-10-22,3.6,Small Business
+SELL000077,Trisha Store,Lucknow,Uttar Pradesh,2,260451,2022-07-14,4.5,Reseller
+SELL000078,Ovi Store,Hyderabad,Telangana,1,327128,2024-06-04,4.0,Individual
+SELL000079,Tanish Retail,Chennai,Tamil Nadu,1,517930,2022-06-06,4.2,Small Business
+SELL000080,Kanha Store,Chandigarh,Chandigarh,1,220273,2023-09-05,4.1,Brand Store
+SELL000081,Zivame Store,Mumbai,Maharashtra,1,684328,2022-11-03,5.0,Small Business
+SELL000082,Kaya Enterprises,Hyderabad,Telangana,1,191569,2022-03-28,3.8,Brand Store
+SELL000083,Yugen Traders,Chennai,Tamil Nadu,1,810277,2023-02-13,4.8,Brand Store
+SELL000084,Rasa Enterprises,Chandigarh,Chandigarh,1,613552,2022-09-05,4.1,Small Business
+SELL000085,Zenda Retail,Bengaluru,Karnataka,1,362756,2023-03-20,4.8,Small Business
+SELL000086,Tanish Mart,Mangaluru,Karnataka,2,387585,2021-03-07,3.4,Small Business
+SELL000087,Nirvi Store,Puducherry,Puducherry,2,626742,2022-05-10,4.1,Small Business
+SELL000088,Kanha Retail,Ranchi,Jharkhand,3,176158,2023-07-09,3.8,Small Business
+SELL000089,Orion Mart,Hyderabad,Telangana,1,643822,2024-04-27,4.1,Individual
+SELL000090,Kaya Enterprises,Indore,Madhya Pradesh,2,521431,2023-05-04,4.6,Brand Store
+SELL000091,Orion Enterprises,Mumbai,Maharashtra,1,274782,2023-05-16,4.2,Individual
+SELL000092,Meraki Mart,Vadodara,Gujarat,2,778587,2023-07-27,4.6,Individual
+SELL000093,Trisha Mart,Ahmedabad,Gujarat,1,578702,2020-12-04,3.7,Individual
+SELL000094,Tanish Store,Delhi,Delhi,1,231946,2022-10-16,3.6,Individual
+SELL000095,Orion Traders,Hyderabad,Telangana,1,598365,2022-05-10,4.0,Small Business
+SELL000096,Vayu Mart,Guwahati,Assam,3,416419,2022-08-11,4.0,Individual
+SELL000097,BharatTech Store,Vadodara,Gujarat,2,679326,2023-08-13,3.9,Small Business
+SELL000098,Bluewood Store,Ahmedabad,Gujarat,1,476683,2021-08-27,3.5,Small Business
+SELL000099,Prisma Traders,Pune,Maharashtra,1,855077,2022-06-13,4.6,Individual
+SELL000100,BharatTech Retail,Kochi,Kerala,2,800965,2022-01-12,3.8,Individual
+SELL000101,Sattva Mart,Raipur,Chhattisgarh,3,139978,2023-05-26,4.7,Small Business
+SELL000102,Suraj Mart,Thiruvananthapuram,Kerala,2,416216,2023-06-28,4.0,Small Business
+SELL000103,Tanish Retail,Chennai,Tamil Nadu,1,260741,2021-09-16,4.3,Individual
+SELL000104,Meraki Retail,Kanpur,Uttar Pradesh,2,445488,2024-03-19,4.3,Individual

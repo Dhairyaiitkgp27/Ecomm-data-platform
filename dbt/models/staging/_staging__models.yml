@@ -1,0 +1,89 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: One row per customer (deduplicated, city/state standardised upstream).
+    columns:
+      - name: customer_id
+        description: Natural key for a customer.
+        data_tests: [not_null, unique]
+      - name: customer_segment
+        data_tests:
+          - accepted_values:
+              values: ["New", "Occasional", "Regular", "Premium"]
+
+  - name: stg_sellers
+    description: One row per seller (current attributes).
+    columns:
+      - name: seller_id
+        data_tests: [not_null, unique]
+      - name: seller_rating
+        description: 1.0-5.0 rating.
+
+  - name: stg_products
+    description: One row per product in the catalogue.
+    columns:
+      - name: product_id
+        data_tests: [not_null, unique]
+      - name: mrp_inr
+        description: Maximum retail price in INR; negatives were nulled upstream.
+
+  - name: stg_orders
+    description: One row per order (deduplicated).
+    columns:
+      - name: order_id
+        data_tests: [not_null, unique]
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+      - name: order_status
+        data_tests:
+          - accepted_values:
+              values: ["delivered", "shipped", "processing", "cancelled", "returned"]
+
+  - name: stg_order_items
+    description: One row per product line within an order.
+    columns:
+      - name: order_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_orders')
+              field: order_id
+      - name: quantity
+        description: Units of the product on this line; always positive post-cleaning.
+        data_tests:
+          - dbt_utils.accepted_range:
+              min_value: 1
+              inclusive: true
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [order_id, order_item_id]
+
+  - name: stg_payments
+    description: One row per payment record on an order.
+    columns:
+      - name: payment_status
+        data_tests:
+          - accepted_values:
+              values: ["paid", "pending", "failed", "refunded", "unknown"]
+      - name: order_id
+        data_tests:
+          - relationships:
+              to: ref('stg_orders')
+              field: order_id
+
+  - name: stg_shipments
+    description: One row per order shipment.
+    columns:
+      - name: order_id
+        data_tests: [not_null]
+
+  - name: stg_returns
+    description: One row per returned order line.
+    columns:
+      - name: return_id
+        data_tests: [not_null, unique]
