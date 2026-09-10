@@ -9,10 +9,7 @@ cleaned with **PySpark**, modelled into a tested **star schema** with **dbt**
 and served through a **Streamlit** dashboard — all runnable locally with
 **Docker Compose**.
 
-> **Honesty first:** all data is **synthetically generated** (schema inspired by
-> the public Olist dataset; Indian characteristics hand-curated). This is a
-> portfolio/learning project — no real company data, no inflated "billions of
-> rows" claims. Every capability below maps to code you can open and run.
+
 
 ---
 
