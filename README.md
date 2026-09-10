@@ -319,9 +319,7 @@ all analytics SQL. Green CI means the whole thing genuinely works, reproducibly.
 - dbt exposures + a published lineage graph; alerting on quality-metric drift.
 
 ## License
-MIT — see [LICENSE](LICENSE). *(Update the copyright holder to your name.)*
+MIT — see [LICENSE](LICENSE). 
 
 ---
-*Interview prep and honest resume bullets for this project live in
-[docs/interview_questions.md](docs/interview_questions.md) and
-[docs/resume_bullets.md](docs/resume_bullets.md).*
+
